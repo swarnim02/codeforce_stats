@@ -1,0 +1,79 @@
+.rating-graph {
+  width: 100%;
+  height: 450px;
+  padding: 10px 0 10px 0;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.rating-graph-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: rgba(42, 82, 152, 0.05);
+  border-radius: 8px;
+}
+
+.rating-graph-controls label {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.time-filter-select {
+  padding: 8px 15px;
+  border: 2px solid #2a5298;
+  border-radius: 6px;
+  background: white;
+  color: #333;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.time-filter-select:hover {
+  background: rgba(42, 82, 152, 0.05);
+}
+
+.time-filter-select:focus {
+  outline: none;
+  border-color: #7e22ce;
+  box-shadow: 0 0 0 3px rgba(42, 82, 152, 0.1);
+}
+
+.custom-tooltip {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip-label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.tooltip-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.tooltip-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+  font-size: 1.1rem;
+}
+
