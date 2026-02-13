@@ -27,3 +27,7 @@ Enter a Codeforces handle and click "Get Stats" to see the statistics.
 - Recharts
 - React Calendar
 - Codeforces API
+
+## Notes
+
+Requires a valid Codeforces handle.
