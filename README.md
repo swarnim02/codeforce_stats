@@ -31,3 +31,7 @@ Enter a Codeforces handle and click "Get Stats" to see the statistics.
 ## Notes
 
 Requires a valid Codeforces handle.
+
+## Contributing
+
+Issues and PRs welcome.
