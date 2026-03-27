@@ -10,6 +10,10 @@ A React app to view your Codeforces statistics including rating history, problem
 - Topic-wise problem analysis
 - Problem solving calendar
 
+## Getting Started
+
+Clone the repo and install dependencies.
+
 ## Setup
 
 ```bash
