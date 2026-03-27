@@ -18,7 +18,8 @@ const UserInput = ({ onSubmit, loading }) => {
         type="text"
         value={handle}
         onChange={(e) => setHandle(e.target.value)}
-        placeholder="Enter Codeforces handle"
+        placeholder="Enter your Codeforces handle (e.g. tourist)"
+        aria-label="Codeforces handle"
         className="user-input"
         disabled={loading}
       />
